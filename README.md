@@ -1,18 +1,22 @@
-# signlanguagedetection
 Sign Language Detection Project
-This project focuses on developing a real-time sign language recognition system using computer vision and machine learning techniques. The goal is to provide a tool that can interpret hand gestures into meaningful sign language words to facilitate communication for individuals with hearing and speech impairments.
+This project focuses on creating a real-time system for recognizing and interpreting hand gestures into sign language using computer vision and machine learning techniques. The goal is to assist individuals with hearing and speech impairments by translating their hand gestures into meaningful text.
 
-Key Features:
-Hand Gesture Recognition: Utilized OpenCV for image processing to detect and segment hand gestures from live video feeds or pre-recorded inputs.
-Machine Learning Model: Trained a Convolutional Neural Network (CNN) using Python and TensorFlow/Keras to classify different hand gestures representing sign language symbols.
-Real-Time Detection: Achieved real-time performance with high accuracy by processing live video input, allowing immediate translation of gestures into text.
-Data Preprocessing: Applied image augmentation techniques and preprocessed gesture images to enhance model accuracy and generalization.
-User Interface: Developed a simple GUI for real-time gesture display and translation output.
-Technologies Used:
-Programming Languages: Python
-Libraries: OpenCV, TensorFlow, Keras, NumPy
+Features
+Hand Gesture Detection: Utilizes OpenCV for detecting and segmenting hand gestures from video input (live or recorded).
+Machine Learning Model: Implements a Convolutional Neural Network (CNN) to classify hand gestures corresponding to different sign language symbols.
+Real-Time Translation: Capable of processing video feeds in real time, providing immediate translation of hand gestures to text.
+Data Preprocessing: Includes image augmentation and preprocessing techniques to improve model accuracy and performance.
+User Interface: Features a simple and interactive GUI for real-time display of gesture recognition and text translation.
+Technologies Used
+Languages: Python
+Libraries:
+OpenCV
+TensorFlow
+Keras
+NumPy
 Tools: Jupyter Notebook
-Future Enhancements:
-Expand the gesture vocabulary to cover more complex phrases.
-Integrate speech synthesis for audio output of recognized gestures.
-Improve model performance and accuracy by using larger datasets.
+Future Enhancements
+Extend the vocabulary to recognize more complex sign language phrases.
+Integrate speech synthesis to convert recognized gestures into audio.
+Improve model accuracy using larger datasets and more robust architectures.
+
